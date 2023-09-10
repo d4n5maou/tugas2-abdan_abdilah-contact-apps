@@ -132,7 +132,7 @@ function hapusData() {
   // tambahkan fungsi hapus data data disini
   readline.question("Input index yang akan dihapus: ", (index) => {
     databaseKontak.splice(index, 1);
-    console.log(`Kontak pad index ke-${index} telah dihapus!`);
+    console.log(`Kontak pada index ke-${index} telah dihapus!`);
     lihatData();
   });
 }
